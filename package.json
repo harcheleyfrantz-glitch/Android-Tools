@@ -1,0 +1,32 @@
+{
+  "name": "androidmodkit",
+  "version": "0.1.0",
+  "description": "An open-source toolkit for Android development, Termux workflows, and game modding.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "amk": "src/cli.js"
+  },
+  "scripts": {
+    "start": "node src/cli.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "android",
+    "termux",
+    "modding",
+    "game-modding",
+    "developer-tools",
+    "cli"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "ROADMAP.md"
+  ]
+}
